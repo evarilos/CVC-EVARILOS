@@ -29,6 +29,16 @@ require_once("models/header.php");
 		<div class="panel panel-default">
                    <div class="panel-body">
 			<h4>Download</h4>
+				<div class="panel panel-red">
+				        <div class="panel-heading">
+				            <h4 class="panel-title">Python and Matlab SDK for interacting with raw data.</h4>
+				        </div>
+				        <div class="panel-body">
+						<p>
+SDKs (wrappers) for using the EVARILOS services for using the services from Python and MATLAB programming languages.</br>The SDKs can be found <a href="https://github.com/evarilos/SDKs-EVARILOS" target="_blank">here</a>. A demonstration and extra information is <a href="http://ebp.evarilos.eu/page/ewsn_demo.html" target="_blank">here</a> available.
+						</p>
+				        </div>
+				</div>
 				<table class="table table-hover">
 				<thead>
 					<tr>
@@ -132,7 +142,7 @@ if($exp['approach'] == "radio") $dt = "Sensor: RSSI, ToA";
 				        </div>
 				        <div class="panel-body">
 						<p>
-The datasets that are listed above, are stored and compressed using the Google Protocol buffer technologie. Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages – Java, C++, or Python. More information about the Protocol buffers can be found <a href="https://developers.google.com/protocol-buffers/" target="_blank">here</a>.
+The datasets that are listed above, are stored and compressed using the Google Protocol buffer technology. Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages – Java, C++, or Python. More information about the Protocol buffers can be found <a href="https://developers.google.com/protocol-buffers/" target="_blank">here</a>.
 						</p>
 						<p>
 							The structure that EVARILOS used to store and distribute its RAW data can be found in the collapsable panel below. A structured Howto for the Protocol buffers in this benchmarking platform can be found <a href="http://www.evarilos.eu/deliverables/D2.5_EVARILOS_benchmarking_suite.pdf" target="_blank">here</a> on page 54.
